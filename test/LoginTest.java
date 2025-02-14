@@ -19,8 +19,8 @@ public class LoginTest {
 		 /*System.setProperty("webdriver.chrome.driver","D:/Learning Auto/UMFramework/lib/chromedriver.exe");
 		 WebDriver driver=new ChromeDriver();
 		
-//			System.setProperty("webdriver.gecko.driver","D:/Learning Auto/UMFramework/lib/geckodriver.exe");
-//			WebDriver driver=new FirefoxDriver();
+			System.setProperty("webdriver.gecko.driver","D:/Learning Auto/UMFramework/lib/geckodriver.exe");
+			WebDriver driver=new FirefoxDriver();
 			driver.manage().window().maximize();
 			driver.get("https://www.gmail.com");
 			
@@ -37,7 +37,7 @@ public class LoginTest {
 			System.out.println("Xpath message: "+TextMsg);
 		    Assert.assertEquals(TextMsg,Msg,"Both are same");
 		    driver.findElement(By.xpath("//img[@id=':e1']")).click();
-			driver.quit();			*/
+			driver.quit();			
 }
 }
 			
